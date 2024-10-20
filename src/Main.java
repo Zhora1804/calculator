@@ -1,7 +1,8 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {public static String[] calc(String input) throws IOException {
+public class Main {
+    public static String[] calc(String input) throws IOException {
     String[] calc = input.split(" ");
     if (calc.length > 3 )
         throw new IOException("Формат математической операции не удовлетворяет заданию - два операнда и один оператор.");
